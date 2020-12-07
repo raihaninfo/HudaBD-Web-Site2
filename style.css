@@ -1,0 +1,69 @@
+/* <!-- 1. header ( logo, menu, login, singup,  ) {mehedi vai} --> */
+
+
+
+
+
+
+
+
+
+
+    /* <!-- 2. hero section (pralux, text) {morshed } --> */
+
+
+
+
+
+
+
+    /* <!-- 3. about section (company about, and single photo) {prince admed} --> */
+
+
+
+    .col-md-6{
+        padding:10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .col-md-6 .text{
+        padding: 5px;
+        border-left: 6px solid #50C878 ;
+     }
+     .col-md-6 .text h1{
+        padding: 10px;
+        font-size: 45px;
+     }
+     .col-md-6 .text p{
+        padding: 10px;
+        text-align: justify;
+     }
+     .col-md-6 img{
+         padding: 10px;;
+         height: auto;
+         width: 40rem;
+     }
+
+
+
+
+    /* <!-- 4. servies section (web development, softwer development, mobile apps, sline suppot, ) {Raihan} --> */
+
+
+
+
+
+
+
+
+    /* <!-- 5. pricing section (slider) {shourav saha} --> */
+
+
+
+
+
+
+
+
+    /* <!-- 6. our cline feedbac {Nazmul vai} --> */
