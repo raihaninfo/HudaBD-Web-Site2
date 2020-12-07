@@ -15,18 +15,15 @@
 
     .hero-image{
         background-image: url(images/heroimg1.jpg);
-        height: 400px;
+        height: 450px;
         width: 100%;
         position: relative;
         background-repeat: no-repeat;
     }
     .hero-text{
-        position: absolute;
         color: #ffffff;
         text-align: center;
-        margin: 250px;
-        padding: 50px;
-        margin-top: 45px;
+        padding: 75px;
     }
     .hero-text .hero-text-heading{
         font-size: 70px;
