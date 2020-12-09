@@ -13,7 +13,39 @@
 
 
 
-
+    .hero-image{
+        background-image: url(images/heroimg1.jpg);
+        height: 450px;
+        width: 100%;
+        position: relative;
+        background-repeat: no-repeat;
+    }
+    .hero-text{
+        color: #ffffff;
+        text-align: center;
+        padding: 75px;
+    }
+    .hero-text .hero-text-heading{
+        font-size: 70px;
+        font-family: 'Dancing Script', cursive;
+    }
+    .hero-text .hero-text-ditels{
+        font-size: 20px;
+    }
+    .hero-button{
+        text-align: center;
+        border: none;
+        margin: 60px;
+        padding: 20px;
+        background-color: #50C878;
+        color: #161817;
+        border-radius: 50px;
+        font-size: 20px;
+    }
+    .hero-button:hover{
+        background-color: rgba(80, 200, 120, .8);
+        color: #ffffff;
+    }
 
 
 
