@@ -4,6 +4,6 @@ $(document).ready(function(){
         autoplay: true,
         autoplayHoverPause: true,
         loop: true,
-        autoplayTimeout: 3000,
+        autoplayTimeout: 5000,
     });
   });

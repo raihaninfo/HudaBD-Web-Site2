@@ -17,7 +17,7 @@
 
     .hero-image{
         background-image: url(images/company.jpg);
-        height: 450px;
+        height: 80vh;
         width: 100%;
         position: relative;
         background-repeat: no-repeat;
