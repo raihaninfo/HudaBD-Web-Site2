@@ -1,4 +1,22 @@
 /* <!-- 1. header ( logo, menu, login, singup,  ) {mehedi vai} --> */
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Roboto:wght@500&display=swap');
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lora', serif;
+
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-family: 'Lora', serif;
+}
+
+
+
+
+
 .logo{
     width: 80px;
     height: 80px;
@@ -13,14 +31,19 @@
 
 /* <!-- 2. hero section (pralux, text) {morshed } --> */
 
-
+    .hero{
+        width:100%;
+    }
 
     .hero-image{
         background-image: url(images/company.jpg);
+        background-attachment: fixed;
+        background-size: cover;
         height: 80vh;
-        width: 100%;
+        width: auto;
         position: relative;
         background-repeat: no-repeat;
+
     }
     .hero-text{
         color: #ffffff;
@@ -29,7 +52,7 @@
     }
     .hero-text .hero-text-heading{
         font-size: 70px;
-        font-family: 'Dancing Script', cursive;
+        font-family: 'Lora', serif;
     }
     .hero-text .hero-text-ditels{
         font-size: 20px;
@@ -57,15 +80,15 @@
     height: 20px;
     display: inline-block;
     text-align: center;
-    margin-top: 20px;
+    /* margin-top: 20px;
     padding: 5px;
-    margin-bottom: 100px;
+    margin-bottom: 100px; */
 
 }
 
 .container .heading h2 {
-    font-size: 70px;
-    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-family: 'Lora', serif;
 }
 
 .col-md-6 {
@@ -103,8 +126,8 @@
 /* <!-- 4. servies section (web development, softwer development, mobile apps, sline suppot, ) {Raihan} --> */
 
 .serviesheader {
-    font-size: 70px;
-    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-family: 'Lora', serif;
 }
 .clinephoto{
     height: 150px;
