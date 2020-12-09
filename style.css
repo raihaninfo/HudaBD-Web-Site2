@@ -104,8 +104,11 @@
     font-size: 70px;
     font-family: 'Dancing Script', cursive;
 }
-
-
+.clinephoto{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
 
 
 
