@@ -96,8 +96,6 @@ p{
 }
 
 
-
-
 /* <!-- 4. servies section (web development, softwer development, mobile apps, sline suppot, ) {Raihan} --> */
 
 .serviesheader {
@@ -127,6 +125,13 @@ iframe{
     iframe {
         width: 466px;
         height: 379px;
+    }
+
+  }
+@media only screen and (max-width: 482px) {
+    iframe {
+        width: 400px;
+        height: 300px;
     }
 
   }
