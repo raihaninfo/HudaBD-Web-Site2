@@ -25,54 +25,29 @@ p{
 
 
 
-
-
-
-
 /* <!-- 2. hero section (pralux, text) {morshed } --> */
 
     .hero{
-        width:100%;
-    }
-
-    .hero-image{
-        background-image: url(images/company.jpg);
-        background-attachment: fixed;
+        background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("images/company.jpg");
         background-size: cover;
-        height: 80vh;
-        width: auto;
-        position: relative;
         background-repeat: no-repeat;
-
-    }
-    .hero-text{
-        color: #ffffff;
+        height: 90vh;
+        background-attachment: fixed;
+        position: relative;
+    } 
+    .headertext{
+        position: absolute;
+        top: 40vh;
+        width: 100%;
         text-align: center;
-        padding: 75px;
     }
-    .hero-text .hero-text-heading{
+    .heading-text-main {
         font-size: 70px;
-        font-family: 'Lora', serif;
+        font-family: 'Dancing Script', cursive;
     }
-    .hero-text .hero-text-ditels{
-        font-size: 20px;
-    }
-    .hero-button{
-        text-align: center;
-        border: none;
-        margin: 60px;
-        padding: 20px;
-        background-color: #50C878;
-        color: #161817;
-        border-radius: 50px;
-        font-size: 20px;
-    }
-    .hero-button:hover{
-        background-color: rgba(80, 200, 120, .8);
-        color: #ffffff;
-    }
+    .heading-text{
 
-
+    }
 
 /* <!-- 3. about section (company about, and single photo) {prince admed} --> */
 .container .heading {
@@ -136,7 +111,25 @@ p{
 }
 
 /* cotact section  */
+/* google map */
+iframe{
+    width:600px;
+    height: 450px;
+}
+@media only screen and (max-width: 1172px) {
+    iframe{
+        width:550px;
+        height: 400px;
+    }
 
+  }
+@media only screen and (max-width: 992px) {
+    iframe {
+        width: 466px;
+        height: 379px;
+    }
+
+  }
 /* <!-- 5. pricing section (slider) {shourav saha} --> */
 
 
