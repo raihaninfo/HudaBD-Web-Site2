@@ -20,14 +20,15 @@ html {
     scroll-behavior: smooth;
 }
 
-.logo{
-    width: 80px;
-    height: 80px;
+.logo-image{
+    width: 70px;
+    height: 70px;
 }
-
-
+.bg-header{
+    background-color: #2ECC71;
+    z-index: 1;
+}
 /* <!-- 2. hero section (pralux, text) {morshed } --> */
-
     .hero{
         background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("images/company.jpg");
         background-size: cover;
@@ -46,11 +47,6 @@ html {
         font-size: 70px;
         font-family: 'Dancing Script', cursive;
     }
-    .heading-text{
-
-    }
-
-
     /* button hover link   */
     
     .glow-on-hover {
@@ -124,7 +120,6 @@ html {
     margin-bottom: 100px; */
 
 }
-
 .container .heading h2 {
     font-size: 50px;
     font-family: 'Lora', serif;
@@ -162,6 +157,24 @@ html {
 
 /* <!-- 4. servies section (web development, softwer development, mobile apps, sline suppot, ) {Raihan} --> */
 
+#sticky-header.sticky {
+    width: 100%;
+    color: white;
+    background-color: #1FAD52;
+}
+
+#sticky-header.sticky a {
+    color: white;
+}
+.clinesection{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("images/photo2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -1;
+}
 .serviesheader {
     font-size: 50px;
     font-family: 'Lora', serif;
