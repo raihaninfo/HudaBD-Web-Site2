@@ -25,7 +25,7 @@ html {
     height: 70px;
 }
 .bg-header {
-	background-color: rgba(31,176,57,.7);
+	background-color: #2ECC71;
 }
 /* <!-- 2. hero section (pralux, text) {morshed } --> */
     .hero{
@@ -51,8 +51,8 @@ html {
     .glow-on-hover {
         border: none;
         outline: none;
-        color: #fff;
-        background: #D0D0D0;
+        color: #000000;
+        background: #000000;
         /* cursor: pointer; */
         position: relative;
         z-index: 0;
@@ -94,7 +94,7 @@ html {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #111;
+    background: #2ecc71;
     left: 0;
     top: 0;
     border-radius: 10px;
@@ -131,7 +131,7 @@ html {
 
 .col-md-6 .text {
     padding: 5px;
-    border-left: 6px solid #50C878;
+    border-left: 6px solid #2ECC71;
 }
 
 .col-md-6 .text h1 {
@@ -167,7 +167,7 @@ html {
     background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("images/photo2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 75vh;
     background-attachment: fixed;
     position: relative;
     z-index: -1;
@@ -211,12 +211,26 @@ iframe{
   }
 /* <!-- 5. pricing section (slider) {shourav saha} --> */
 
-
-
-
-
-
-
+.card-shadow-active {
+    box-shadow: 2px -1px 6px 0px #000000;
+  }
+  
+  .card-shadow:hover {
+    box-shadow: 2px -1px 18px 0px #000000;
+  }
+  
+  .recommend {
+    background-color:#2ECC71;
+    color: #ffffff;
+    transform: rotate(-45deg);
+    padding: 2px 19px;
+    position: absolute;
+    top: 23px;
+    left: -29px;
+  }
+  .btn-primary{
+      background-color: #2ECC71;
+  }
 
 /* <!-- 6. our cline feedbac {Nazmul vai} --> */
 footer{
