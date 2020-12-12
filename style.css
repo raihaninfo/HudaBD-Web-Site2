@@ -24,9 +24,8 @@ html {
     width: 70px;
     height: 70px;
 }
-.bg-header{
-    background-color: #2ECC71;
-    z-index: 1;
+.bg-header {
+	background-color: rgba(31,176,57,.7);
 }
 /* <!-- 2. hero section (pralux, text) {morshed } --> */
     .hero{
@@ -50,8 +49,6 @@ html {
     /* button hover link   */
     
     .glow-on-hover {
-        /* width: 220px; */
-        /* height: 50px; */
         border: none;
         outline: none;
         color: #fff;
@@ -160,7 +157,7 @@ html {
 #sticky-header.sticky {
     width: 100%;
     color: white;
-    background-color: #1FAD52;
+    background-color: #2ECC71;
 }
 
 #sticky-header.sticky a {
