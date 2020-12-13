@@ -189,13 +189,6 @@ html {
     display: block;
     text-align: center;
 }
-.card-img-top{
-    height: 100px;
-    width: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 .servises-info{
     text-align: center;
 }
