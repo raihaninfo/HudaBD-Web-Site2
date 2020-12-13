@@ -184,6 +184,11 @@ html {
     width: 150px;
     border-radius: 50%;
 }
+.servises-icon{
+    font-size: 80px;
+    display: block;
+    text-align: center;
+}
 .card-img-top{
     height: 100px;
     width: 100px;
