@@ -5,6 +5,14 @@
     margin: 0;
     padding: 0;
 }
+
+/* header section : shourav saha
+servers section : morsed 
+price section : prince ahmed
+Contract : nazmul shesk
+Client sectio : Mehedi hasan */
+
+
 h1, h2, h3, h4, h5, h6{
     font-family: 'Lora', serif;
 
@@ -172,14 +180,30 @@ html {
     position: relative;
     z-index: -1;
 }
-.serviesheader {
+.serviesheader{
     font-size: 50px;
     font-family: 'Lora', serif;
+}
+.serviesheader-servise{
+    border-bottom: 1px solid  #2ECC71;
 }
 .clinephoto{
     height: 150px;
     width: 150px;
     border-radius: 50%;
+}
+.servises-icon{
+    font-size: 80px;
+    display: block;
+    text-align: center;
+}
+.servises-info{
+    text-align: center;
+}
+.servises{
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /* cotact section  */
@@ -224,27 +248,80 @@ iframe{
 
   }
 /* <!-- 5. pricing section (slider) {shourav saha} --> */
+.row{
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 20px;
+}
 
-.card-shadow-active {
-    box-shadow: 2px -1px 6px 0px #000000;
-  }
-  
-  .card-shadow:hover {
-    box-shadow: 2px -1px 18px 0px #000000;
-  }
-  
-  .recommend {
-    background-color:#2ECC71;
-    color: #ffffff;
-    transform: rotate(-45deg);
-    padding: 2px 19px;
+.single-price{
+    height: 500px;
+    width: 350px;
+    cursor: pointer;
+    text-align: center;
+    margin: 8px;
+    padding: 10px;
+    transition: 0.9s;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.price-header{
+    width: 100%;
+    height: 200px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    color:#2ECC71;
+    text-align: center;
+    position: relative;
+}
+.price-header .price{
     position: absolute;
-    top: 23px;
-    left: -29px;
-  }
-  .btn-primary{
-      background-color: #2ECC71;
-  }
+    top:50%;
+    left:31%;
+    height: 130px;
+    width: 130px;
+    color: #1a1a1b;
+    border: 4px solid #2ECC71;
+    border-radius: 50%;
+}
+.price-header .price h2{
+    font-weight: bold;
+    top: 30%;
+    left: 21%;
+    font-size: 33px;
+    position: absolute;
+    text-align: center;
+}
+.deals{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.single-price a{
+    margin-top: 40px;
+    background-color: #2ECC71;
+    border-radius: 4px 4px;
+    padding: 15px 40px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+.single-price a:hover{
+    border:2px solid #2ECC71;
+    background-color: #fff;
+    color:  #1a1a1b;
+    transition: 0.9s;
+}
+.single-price:hover{
+    scale: 1.1;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.9s;
+}
 
 /* <!-- 6. our cline feedbac {Nazmul vai} --> */
 footer{
