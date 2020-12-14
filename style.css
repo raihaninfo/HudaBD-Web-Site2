@@ -5,6 +5,14 @@
     margin: 0;
     padding: 0;
 }
+
+/* header section : shourav saha
+servers section : morsed 
+price section : prince ahmed
+Contract : nazmul shesk
+Client sectio : Mehedi hasan */
+
+
 h1, h2, h3, h4, h5, h6{
     font-family: 'Lora', serif;
 
@@ -249,6 +257,7 @@ iframe{
     padding: 5px;
     margin-top: 20px;
 }
+
 .single-price{
     height: 500px;
     width: 350px;
