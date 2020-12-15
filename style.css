@@ -205,6 +205,10 @@ html {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.servises-icon a:hover{
+    color: #2ECC71;
+    transition: 0.2s;
+}
 
 /* cotact section  */
 /* google map */
