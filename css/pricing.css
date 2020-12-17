@@ -1,0 +1,160 @@
+/* <!-- 1. header ( logo, menu, login, singup,  ) {mehedi vai} --> */
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header section : shourav saha
+servers section : morsed 
+price section : prince ahmed
+Contract : nazmul shesk
+Client sectio : Mehedi hasan */
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lora', serif;
+
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-family: 'Lora', serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo-image{
+    width: 70px;
+    height: 70px;
+}
+.bg-header {
+	background-color: #2ECC71;
+}
+/* <!-- 2. Pricing Section --> */
+section{
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 10%;
+}
+.single-price{
+    height: 500px;
+    width: 350px;
+    cursor: pointer;
+    text-align: center;
+    margin: 8px;
+    padding: 10px;
+    transition: 0.9s;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.price-header{
+    width: 100%;
+    height: 200px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: #50C878;
+    text-align: center;
+    position: relative;
+}
+.price-header .price{
+    position: absolute;
+    top:50%;
+    left:31%;
+    height: 130px;
+    width: 130px;
+    color: #1a1a1b;
+    border: 4px solid #50C878;
+    border-radius: 50%;
+}
+.price-header .price h2{
+    font-weight: bold;
+    top: 30%;
+    left: 21%;
+    font-size: 33px;
+    position: absolute;
+    text-align: center;
+}
+.deals{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.single-price a{
+    margin-top: 40px;
+    background-color: #50C878;
+    border-radius: 4px 4px;
+    padding: 15px 40px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+.single-price a:hover{
+    border:2px solid #50C878;
+    background-color: #fff;
+    color:  #1a1a1b;
+    transition: 0.9s;
+}
+.single-price:hover{
+    scale: 1.1;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.9s;
+}
+
+
+/* <!-- 6. our cline feedbac {Nazmul vai} --> */
+footer{
+    background-color: #222f3e;  
+    /* padding: 200px 20px 0px;
+    position: relative; */
+  }
+  footer h4{
+      color: white;
+      font-size: 27px;
+      font-family: 'Do Hyeon', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+  }
+  
+  footer a{
+      color: #57ae9e;
+      font-family: tahoma;
+      margin-top: 4px;
+      display: block;
+      text-transform: capitalize;
+      font-weight: 400;
+  }
+  footer a:hover{
+      color: #50C878;
+      text-decoration: none;
+  }
+  .svg{
+      position: relative;
+      z-index: 1;
+      top: 0;
+      left: 0;
+  }
+  .main-footer{
+      background-color: #161a17;
+      padding: 23px 0px;
+  }
+  .main-footer p,a{
+      font-style: italic;
+      color: #444;
+      font-family: arial;
+      font-weight: 600;
+      margin: 0px;
+  }
+  .main-footer a:hover{
+      text-decoration: none;
+      color: gold;
+  }
